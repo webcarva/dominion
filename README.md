@@ -14,7 +14,9 @@ Website Technical Test 2016
 - I'd add touch/draggability onto the the sliders and carousels making them more responsive
 - Add a drop down menu and use the correct icons on the .top .tools
 - Convert all smaller images to sprint and use that in place of the current icons in e.g. .tools and nav (although I've tried to use fontawesome where possible for speed).
-- I'd find a more professional picture of myself to sneak into the site
+- A few notes in js about different ways to do things
+- I'd find a more professional picture of myself to sneak into the site.
+
 
 # Notes
 - There are a lot of freely available sliders/carousels out there I could have used. I'm not one to unecessarily reinvent the wheel but instructions seemed to suggest you wanted it written from scratch.
