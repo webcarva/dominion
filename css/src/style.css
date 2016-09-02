@@ -417,6 +417,25 @@ article .article-title {
   .page {
     width: 100%;
   }
+  .top .tools.logo {
+    padding-left: 10px;
+  }
+  .top .tools.quicklinks {
+    display: none;
+  }
+  .top .tools.select {
+    display: none;
+  }
+  .top .tools.border {
+    display: none;
+  }
+  .top .tools.input {
+    display: block;
+    margin-right: 10px;
+  }
+  .top .tools.input i {
+    top: 7px;
+  }
   .slider {
     width: 480px;
     margin-left: auto;
@@ -456,6 +475,7 @@ article .article-title {
   .top .tools.logo {
     width: 100%;
     text-align: center;
+    padding: 0px;
   }
   .top .tools.quicklinks {
     display: none;
@@ -467,6 +487,9 @@ article .article-title {
     display: none;
   }
   .top .tools.input {
+    display: none;
+  }
+  header nav ul li div span span {
     display: none;
   }
   .slider {

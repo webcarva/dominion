@@ -45,7 +45,7 @@
                             <div>
                                 <img src="/imgs/travel-guide.png" alt="Travel Guide" />
                                 <span>
-                                    Travel&nbsp;Guide
+                                    Travel<span>&nbsp;Guide</span>
                                 </span>
                             </div>
                         </a>
