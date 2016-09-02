@@ -1,0 +1,15 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI}  /webfonts/.+(ttf|woff2|woff)$
+RewriteRule .* - [L]
+RewriteCond %{REQUEST_URI}  imgs/.+(gif|png|jpg)$
+RewriteRule .* - [L]
+RewriteCond %{REQUEST_URI}  /css/.+(css|png)$
+RewriteRule .* - [L]
+RewriteCond %{REQUEST_URI}  /js/.+css$
+RewriteRule .* - [L]
+RewriteCond %{REQUEST_URI}  /js/.+(js|htm)$
+RewriteRule .* - [L]
+RewriteCond %{REQUEST_URI}  /audio/.+(mp3)$
+RewriteRule .* - [L]
+RewriteCond $1 !^(templates)
+RewriteRule ^(.*)$ /templates/$1 [L]
